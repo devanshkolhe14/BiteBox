@@ -9,6 +9,24 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&display=swap"rel="stylesheet">
+   <style>
+
+    @media screen and (max-width: 900px) {
+    .food-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .food-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #main-content {
+        padding: 20px 15px;
+    }
+}
+   </style>
 </head>
 
 <body>
@@ -37,42 +55,42 @@
 
    <div class="categories">
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-all.png" alt="">
         <p>All</p>
     </div>
 
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-breakfast.png" alt="">
         <p>Breakfast</p>
     </div>
 
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-burgers.png" alt="">
         <p>Burgers</p>
     </div>
 
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-sides-snacks.png" alt="">
         <p>Sides & Snacks</p>
     </div>
 
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-rice-bowl.png" alt="">
         <p>Rice Bowls</p>
     </div>
 
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-sandwiches-toast.png" alt="">
         <p>Sandwiches & Toast</p>
     </div>
 
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-drinks.png" alt="">
         <p>Drinks</p>
     </div>
 
     <div class="category-details">
-        <img src="" alt="">
+        <img src="../images/Category/category-desserts.png" alt="">
         <p>Desserts</p>
     </div>
    </div>
@@ -86,6 +104,7 @@
 
       <section class="menu-category">
          <h2>🍳 Breakfast</h2>
+         <p></p>
          <div class="category-line"></div>
          
          <div class="food-grid">
@@ -180,6 +199,7 @@
       <section class="menu-category">
 
          <h2>🍔 Burgers</h2>
+         <p></p>
          <div class="category-line"></div>
 
          <div class="food-grid">
@@ -274,6 +294,7 @@
       <section class="menu-category">
 
          <h2>🍟 Sides & Snacks</h2>
+         <p></p>
          <div class="category-line"></div>
 
          <div class="food-grid">
@@ -368,75 +389,76 @@
       <section class="menu-category">
 
             <h2>🍚 Rice Bowls</h2>
+            <p></p>
             <div class="category-line"></div>
 
             <div class="food-grid">
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/spicy-chicken-rice-bowl.png" alt="">
                     <h3>Spicy Chicken Rice Bowl</h3>
-                    <p></p>
+                    <p>Spicy, flavorful chicken served with fragrant rice and fresh toppings.</p>
 
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹249</span>
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="tag">🌶️ Spicy</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/chicken-&-fried-egg-rice-bowl.png" alt="">
                     <h3>Chicken & Fried Egg Rice Bowl</h3>
-                    <p></p>
+                    <p>Juicy chicken and a perfectly fried egg served over warm, flavorful rice.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹269</span>
+                        <span class="rating">⭐ 4.9</span>
+                        <span class="tag">🔥 Popular</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/teriyaki-chicken-rice-bowl.png" alt="">
                     <h3>Teriyaki Chicken Rice Bowl</h3>
-                    <p></p>
+                    <p>Tender chicken glazed with sweet teriyaki sauce and served over steamed rice.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹259</span>
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="tag">⭐ Bestseller</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/veg-rice-bowl.png" alt="">
                     <h3>Veg Rice Bowl</h3>
-                    <p></p>
+                    <p>Fresh, colorful vegetables tossed with flavorful seasonings and served over rice.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹199</span>
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="tag">🥗 Veg</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/egg-fried-rice-bowl.png" alt="">
                     <h3>Egg Fried Rice Bowl</h3>
-                    <p></p>
+                    <p>Fluffy rice stir-fried with eggs, fresh vegetables, and savory seasonings.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹219</span>
+                        <span class="rating">⭐ 4.7</span>
+                        <span class="tag">🍳 Popular</span>
                     </div>
 
                     <button>Add to Cart</button>
@@ -448,75 +470,62 @@
         <section class="menu-category">
 
             <h2>🥪 Sandwiches & Toast</h2>
+            <p></p>
             <div class="category-line"></div>
 
             <div class="food-grid">
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/chicken-club-sandwich.png" alt="">
                     <h3>Chicken Club Sandwich</h3>
-                    <p></p>
+                    <p>Layers of juicy chicken, fresh vegetables, cheese, and creamy sauce in toasted bread.</p>
 
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹249</span>
+                        <span class="rating">⭐ 4.9</span>
+                        <span class="tag">🔥 Bestseller</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/grilled-chicken-sandwich.png" alt="">
                     <h3>Grilled Chicken Sandwich</h3>
-                    <p></p>
+                    <p>Tender grilled chicken with fresh vegetables and creamy dressing in toasted bread.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹229</span>
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="tag">⭐ Popular</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/veg-grilled-sandwich.png" alt="">
                     <h3>Veg Grilled Sandwich</h3>
-                    <p></p>
+                    <p>Crispy grilled bread filled with fresh vegetables, cheese, and delicious seasoning.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹169</span>
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="tag">🥗 Veg</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/cheese-corn-sandwich.png" alt="">
                     <h3>Cheese Corn Sandwich</h3>
-                    <p></p>
+                    <p>Sweet corn and melted cheese packed into perfectly grilled, golden bread.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
-                    </div>
-
-                    <button>Add to Cart</button>
-                </div>
-
-                <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
-                    <h3>Avocado Toast</h3>
-                    <p></p>
-                    
-                    <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹179</span>
+                        <span class="rating">⭐ 4.7</span>
+                        <span class="tag">🧀 Cheesy</span>
                     </div>
 
                     <button>Add to Cart</button>
@@ -528,103 +537,104 @@
         <section class="menu-category">
 
             <h2>🥤 Drinks</h2>
+            <p></p>
             <div class="category-line"></div>
 
             <div class="food-grid">
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/fresh-lime-soda.png" alt="">
                     <h3>Fresh Lime Soda</h3>
-                    <p></p>
+                    <p>Refreshing lime juice mixed with chilled soda for a zesty and bubbly treat.</p>
 
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹99</span>
+                        <span class="rating">⭐ 4.7</span>
+                        <span class="tag">🍋 Refreshing</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/cold-coffee.png" alt="">
                     <h3>Cold Coffee</h3>
-                    <p></p>
+                    <p>Rich, creamy coffee blended with chilled milk for a smooth and refreshing sip.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹149</span>
+                        <span class="rating">⭐ 4.9</span>
+                        <span class="tag">☕ Bestseller</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/chocolate-shake.png" alt="">
                     <h3>Chocolate Shake</h3>
-                    <p></p>
+                    <p>Creamy chocolate blended with chilled milk for a rich and indulgent treat.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹179</span>
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="tag">🍫 Popular</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/oreo-shake.png" alt="">
                     <h3>Oreo Shake</h3>
-                    <p></p>
+                    <p>Creamy milkshake blended with crunchy Oreo cookies for a deliciously sweet treat.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹199</span>
+                        <span class="rating">⭐ 4.9</span>
+                        <span class="tag">🔥 Bestseller</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/mango-smoothie.png" alt="">
                     <h3>Mango Smoothie</h3>
-                    <p></p>
+                    <p>Fresh, juicy mango blended into a creamy and refreshing tropical smoothie.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹169</span>
+                        <span class="rating">⭐ 4.7</span>
+                        <span class="tag">🥭 Fresh</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/fresh-orange-juice.png" alt="">
                     <h3>Fresh Orange Juice</h3>
-                    <p></p>
+                    <p>Freshly squeezed oranges served chilled for a naturally sweet and refreshing drink.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹129</span>
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="tag">🍊 Fresh</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/cola.png" alt="">
                     <h3>Cola</h3>
-                    <p></p>
+                    <p>Refreshing, chilled cola served ice-cold for the perfect fizzy treat.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹79</span>
+                        <span class="rating">⭐ 4.5</span>
+                        <span class="tag">🥤 Refreshing</span>
                     </div>
 
                     <button>Add to Cart</button>
@@ -636,75 +646,76 @@
         <section class="menu-category">
 
             <h2>🍰 Desserts</h2>
+            <p></p>
             <div class="category-line"></div>
 
             <div class="food-grid">
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/chocolate-brownie.png" alt="">
                     <h3>Chocolate Brownie</h3>
-                    <p></p>
+                    <p>Rich, fudgy chocolate brownie with a soft center and delicious chocolate flavor.</p>
 
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹149</span>
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="tag">🍫 Popular</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/brownie-with-ice-cream.png" alt="">
                     <h3>Brownie with Ice Cream</h3>
-                    <p></p>
+                    <p>Warm, fudgy chocolate brownie topped with a scoop of creamy ice cream.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹199</span>
+                        <span class="rating">⭐ 4.9</span>
+                        <span class="tag">🔥 Bestseller</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/chocolate-lava-cake.png" alt="">
                     <h3>Chocolate Lava Cake</h3>
-                    <p></p>
+                    <p>Warm chocolate cake filled with a rich, gooey chocolate center.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹219</span>
+                        <span class="rating">⭐ 4.9</span>
+                        <span class="tag">🍫 Must Try</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/cheesecake.png" alt="">
                     <h3>Cheesecake</h3>
-                    <p></p>
+                    <p>Creamy, smooth cheesecake with a rich flavor and perfectly balanced sweetness.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹199</span>
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="tag">⭐ Popular</span>
                     </div>
 
                     <button>Add to Cart</button>
                 </div>
 
                 <div class="food_card">
-                    <img src="../images/Menu/.png" alt="">
+                    <img src="../images/Menu/ice-cream.png" alt="">
                     <h3>Ice Cream</h3>
-                    <p></p>
+                    <p>Creamy, delicious ice cream served chilled for a simple and satisfying sweet treat.</p>
                     
                     <div class="food-info">
-                        <span class="price"></span>
-                        <span class="rating">⭐ </span>
-                        <span class="tag"></span>
+                        <span class="price">₹99</span>
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="tag">🍨 Classic</span>
                     </div>
 
                     <button>Add to Cart</button>

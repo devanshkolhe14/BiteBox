@@ -159,11 +159,19 @@ i:hover {
 .category-details{
     cursor: pointer;
 }
+
 .category-details img{
-    width: 50px;
-    height:50px;
+    width: 60px;
+    height:60px;
     border-radius: 25%;
     padding: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.category-details img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 #main-content {
