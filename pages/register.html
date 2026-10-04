@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
-    <h1>Register</h1>
+    <!-- Header -->
+
+    <div id="header">
+
+        <nav>
+            <h1>BiteBox</h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="register-container">
+
+        <div class="register-form">
+            <h2>Create Account</h2>
+            <p>Join BiteBox and enjoy delicious food, special offer and a better food experience.</p>
+
+            <form action="../php/register.php" method="POST">
+
+                <div class="input-box">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Full Name">
+                </div>
+
+                <div class="input-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="email" name="email" required placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" id="phonenumber" name="phonenumber" required placeholder="Phone Number">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" name="password" required placeholder="Password">
+                </div>
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="confirmpassword" name="confirmpassword" required
+                        placeholder="Confirm Password">
+                </div>
+
+                <div class="term">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy
+                            Policy</a></label>
+                </div>
+
+                <button type="submit">Create Account →</button>
+            </form>
+
+            <div class="social-signup">
+
+                <div class="or-divider">
+                    <span></span>
+                    <p>OR</p><span></span>
+                </div>
+
+                <div class="social-button">
+                    <button type="button" class="social-btn google-btn">
+                        <i class="fa-brands fa-google"></i><span>Sign up with Google</span>
+                    </button>
+
+                    <button type="button" class="social-btn facebook-btn">
+                        <i class="fa-brands fa-facebook-f"></i><span>Sign up with Facebook</span>
+                    </button>
+                </div>
+
+                <p class="login-text">Already have an account?<a href="login.html">Login</a></p>
+
+            </div>
+
+        </div>
+
+    </div>
 </body>
+</body>
+
 </html>
